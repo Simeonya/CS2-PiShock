@@ -67,11 +67,11 @@ public class Main {
      */
     private static void playSound() {
         try {
-            String sound = "sound.mp3";
+            String sound = "sound.wav";
             String currentPath = System.getProperty("user.dir");
             File soundFile = new File(currentPath, sound);
             if (!soundFile.exists()) {
-                downloadFile("https://raw.githubusercontent.com/Simeonya/CS2-PiShock/refs/heads/master/sound/sound.mp3", soundFile);
+                downloadFile("https://raw.githubusercontent.com/Simeonya/CS2-PiShock/refs/heads/master/sound/sound.wav", soundFile);
             }
             play(soundFile.getAbsolutePath());
         } catch (Exception e) {
