@@ -8,7 +8,7 @@ Enhance your gaming experience with Pi-Shock for Counter-Strike 2 (CS2)! This in
 - **Minimal Latency**: Experience no delay between in-game actions and corresponding shocks.
 
 # Configuration
-- **Currently allowed Distrubutions**: `FIRST, LAST, RANDOM, RANDOM_ALL, ALL`
+- **Currently allowed Distrubutions**: `FIRST, LAST, RANDOM, ALL`
 
 # Information
 - Currently tested only on Windows 11.
