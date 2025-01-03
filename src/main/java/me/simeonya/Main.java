@@ -71,7 +71,7 @@ public class Main {
             String currentPath = System.getProperty("user.dir");
             File soundFile = new File(currentPath, sound);
             if (!soundFile.exists()) {
-                downloadFile("http://url-comes-after-upload-on-github.mp3", soundFile);
+                downloadFile("https://raw.githubusercontent.com/Simeonya/CS2-PiShock/refs/heads/master/sound/sound.mp3", soundFile);
             }
             play(soundFile.getAbsolutePath());
         } catch (Exception e) {
