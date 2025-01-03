@@ -47,7 +47,7 @@ public class PiShockSerialApi implements PiShockApi {
         if (config.isVibrationOnly()) {
             op = OpType.VIBRATE;
         }
-        if (!PiShockUtils.shockParamsAreValid(intensity, duration)) return;
+
         List<Integer> shockers = config.getDeviceIds();
         if (shockers.isEmpty()) {
             logger.warning("No PiShock shocker IDs configured");

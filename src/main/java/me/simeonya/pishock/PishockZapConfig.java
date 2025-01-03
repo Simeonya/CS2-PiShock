@@ -61,10 +61,6 @@ public class PishockZapConfig {
     public int getMaxShockerIntensity(int deviceId) {
         return maxIntensityPerShocker.getOrDefault(deviceId, 5);
     }
-
-    public String getSoundFile() {
-        return "sound.mp3";
-    }
 }
 
 
